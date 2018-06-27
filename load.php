@@ -1,5 +1,5 @@
 <?php
-class tihh_URI {
+class tihh_uri {
 
   static private $protocolo;
   static private $host;
