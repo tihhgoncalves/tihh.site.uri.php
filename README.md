@@ -8,8 +8,8 @@ Objeto de PHP que retorna a url base do site.
 ### Instalação
 Para utilizar esse script, utilize o seguinte comando:
 
-```
-  bower install tihh.site.uri.php --save
+```sh
+$ bower install tihh.site.uri.php --save
 ```
 
 P.S.: Caso prefira, você pode fazer o download do projeto manualmente.
