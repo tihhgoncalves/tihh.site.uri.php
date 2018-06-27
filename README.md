@@ -17,7 +17,7 @@ P.S.: Caso prefira, você pode fazer o download do projeto manualmente.
 ### Exemplo
 
 ```php
-  <?
+  <?php
   
   require('bower_components/tihh.site.uri.php/load.php');
 
