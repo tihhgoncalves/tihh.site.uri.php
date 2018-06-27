@@ -24,7 +24,7 @@ P.S.: Caso prefira, você pode fazer o download do projeto manualmente.
   $uri = new tihh_URI();
 
   echo $uri->base(); // http://www.teste.com.br/base/
-  
+
   ?>
 ```
 
