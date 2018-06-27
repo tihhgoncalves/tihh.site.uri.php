@@ -1,5 +1,5 @@
 # Objeto de PHP - tihh_uri()
-Objeto de PHP que retorna o path e a url base do site.
+Objeto de PHP que retorna a url base do site.
 
 [![Versão](http://app.tiago.art.br/flags/version.php?path=tihhgoncalves/tihh.site.uri.php)](#)
 [![Size](http://app.tiago.art.br/flags/size.php?path=tihhgoncalves/tihh.site.uri.php)](#)
@@ -20,9 +20,10 @@ P.S.: Caso prefira, você pode fazer o download do projeto manualmente.
   <?
   
   require('bower_components/tihh.site.uri.php/load.php');
-  
-  /*... EM BREVE ...*/
-  
+
+  $uri = new tihh_URI();
+
+  echo $uri->base(); //http:/www.teste.com.br
   ?>
 ```
 
