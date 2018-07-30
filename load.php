@@ -6,14 +6,14 @@ class tihh_uri {
   static private $scriptName;
   static private $finalBase;
 
-  protected function Protocolo(){
-    
-    if(strpos(strtolower($_SERVER['SERVER_PROTOCOL']),'https') === false) {
-      self::$protocolo = 'http://'; //Atribui o valor http
+   protected function Protocolo(){
+
+    if(@$_SERVER['HTTPS'] == 'on' ) {
+      self::$protocolo = 'https://'; //Atribui o valor http
     } else {
-      self::$protocolo = 'https://'; //Atribui o valor https
+      self::$protocolo = 'http://'; //Atribui o valor https
     }
-    
+
     return self::$protocolo;
   }
   
